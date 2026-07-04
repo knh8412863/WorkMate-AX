@@ -54,13 +54,7 @@ python3 -m pip install -e .
 python3 -m uvicorn app.main:app --reload
 ```
 
-8000번 포트가 이미 사용 중이면 아래처럼 다른 포트를 지정합니다.
-
-```bash
-python3 -m uvicorn app.main:app --reload --port 8001
-```
-
-API 문서는 실행 후 아래에서 확인합니다.
+API 문서는 실행 후 아래에서 확인
 
 - Swagger UI: http://127.0.0.1:8000/docs
 - Health check: http://127.0.0.1:8000/health
